@@ -9,6 +9,7 @@ class FillTheMatrix
 {
     static void Main()
     {
+	//Cool way to solve this shit.
         int size = int.Parse(Console.ReadLine());
         int[,] matrix1 = new int[size, size];
         int[,] matrix2 = new int[size, size];
